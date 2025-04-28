@@ -9,7 +9,6 @@ ul {
 }
 
 .container {
-  max-width: 1200px;
   margin: 45px 90px;
 }
 .nav {
@@ -22,14 +21,25 @@ ul {
   justify-content: space-evenly;
   padding-right: 325px;
 }
+.menu-item {
+  font-family: "inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+}
 .search-loop {
-  position: relative;
+  position: absolute;
+  padding-left: 1270px;
   z-index: 2;
-  margin-left: 22px;
 }
 .search-nav {
   position: relative;
   margin-right: 30px;
+  border: none;
+  color: #dedede;
+  border-radius: 15px;
 }
 .menu {
   display: flex;
